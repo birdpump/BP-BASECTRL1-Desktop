@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message Command {
+  bool test = 1;  // Ensure this line exists and is correct
+}
+
+message Telemetry {
+  float temperature = 1;
+  float humidity = 2;
+}

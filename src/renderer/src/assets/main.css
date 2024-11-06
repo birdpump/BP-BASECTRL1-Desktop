@@ -1,0 +1,12 @@
+@import './base.css';
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /*background-image: url('./wavy-lines.svg');*/
+  background-color: #060508;
+  background-size: cover;
+  user-select: none;
+}
